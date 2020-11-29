@@ -1,0 +1,106 @@
+body{
+    background-color: blueviolet;
+}
+.calculadora {
+    background-color: darkcyan;
+    width: 40%;
+    margin: 3cm auto;
+    border-radius: 30px;
+    overflow: auto;
+    min-width: 500px;
+}
+
+/*---------------------header--------------------*/
+
+.icono {
+    border-radius: 50px;
+    width: 20px;
+}
+
+.uno {
+    background-color: crimson;
+}
+
+.dos {
+    background-color: sandybrown;
+}
+
+.tres {
+    background-color: slateblue;
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 18px;
+}
+
+/*-----------------------display-------------------*/
+
+.display {
+    background-color: lemonchiffon;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 7px;
+    height: 70px;
+    overflow: auto;
+}
+
+.NumerosEnPantalla {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+/*------------------------teclado---------------------*/
+
+.content-botones {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+
+.funciones-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.numeros-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 4%;
+}
+
+button {
+    background-color: lightslategrey;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 13px;
+    text-decoration: none;
+}
+
+.symbols{
+    color: lightyellow;
+    text-decoration: none;
+}
+
+button:active{
+    transform: scale(1.2);
+    text-decoration: none;
+}
+@media (max-width:490px){
+    body{
+        background-color: crimson;
+    }
+}
